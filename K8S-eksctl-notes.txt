@@ -41,7 +41,7 @@ metadata:
 managedNodeGroups:
   - name: expense-ng
     instanceType: m5.large
-    desiredCapacity: 3
+    desiredCapacity: 2
     spot: true
 
 eks.yaml file
@@ -55,9 +55,8 @@ kubectl get nodes --> to see how many nodes in the cluster
 NAME                             STATUS   ROLES    AGE   VERSION
 ip-192-168-18-207.ec2.internal   Ready    <none>   10m   v1.30.4-eks-a737599
 ip-192-168-2-254.ec2.internal    Ready    <none>   26m   v1.30.4-eks-a737599
-ip-192-168-7-42.ec2.internal     Ready    <none>   27m   v1.30.4-eks-a737599
 ------------------------
 
 
-
+eksctl delete cluster --config-file=eks.yaml  --> to delete nodes
 
