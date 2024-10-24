@@ -46,4 +46,7 @@ nodeGroups:
     instanceType: m5.xlarge
     desiredCapacity: 2
 
+eks.yaml file
+
+
     
