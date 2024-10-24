@@ -1,15 +1,3 @@
-install kubectl on linux server
-=========================
-curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.31.0/2024-09-12/bin/linux/amd64/kubectl
-
-chmod +x ./kubectl
-
-sudo mv kubectl /usr/local/bin/
-
-kubectl version
-Client Version: v1.31.0-eks-a737599
------------------------------------
-
 install eksctl
 ==============
 
@@ -28,6 +16,18 @@ sudo mv /tmp/eksctl /usr/local/bin
 eksctl version
 0.194.0
 -------------
+
+install kubectl on linux server
+=========================
+curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.31.0/2024-09-12/bin/linux/amd64/kubectl
+
+chmod +x ./kubectl
+
+sudo mv kubectl /usr/local/bin/
+
+kubectl version
+Client Version: v1.31.0-eks-a737599
+-----------------------------------
 
 https://eksctl.io/getting-started/
 
