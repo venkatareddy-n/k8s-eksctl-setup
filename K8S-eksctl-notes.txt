@@ -47,9 +47,10 @@ managedNodeGroups:
 eks.yaml file
 
 eksctl create cluster --config-file=eks.yaml
+
 --------------------------------------------
 
-kubectl get nodes --> to see how many nodes in the cluster
+kubectl get nodes --> to see how nodes information in the cluster
 
 [ ec2-user@ip-172-31-89-76 ~/k8s-eksctl ]$ kubectl get nodes
 NAME                             STATUS   ROLES    AGE   VERSION

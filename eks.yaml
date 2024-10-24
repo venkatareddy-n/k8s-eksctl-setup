@@ -7,6 +7,7 @@ metadata:
 
 managedNodeGroups:
   - name: expense-ng
-    instanceType: m5.large
+    #instanceType: m5.large --> we need to use this
+    instanceType: t2.medium  #--> remove this, this is for testing only
     desiredCapacity: 2
-    spot: true
+    spot: true 
