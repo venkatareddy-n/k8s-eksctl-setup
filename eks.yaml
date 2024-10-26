@@ -4,7 +4,7 @@ metadata:
   name: expense-eks
   region: us-east-1
 managedNodeGroups:
-  - name: expense
+  - name: expense-eks
     #instanceType: m5.large --> we need to use this
     instanceType: t2.medium  #--> remove this, this is for testing only
     desiredCapacity: 2
