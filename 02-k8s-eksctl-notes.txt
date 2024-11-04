@@ -1,5 +1,10 @@
+connect to server with putty
+
 install eksctl
 ==============
+1. aws configure --> need to set this 1st in your server
+
+2nd Step- install eksclt
 
 https://eksctl.io/installation/#
 
@@ -51,6 +56,12 @@ eksctl create cluster --config-file=eks.yaml
 --------------------------------------------
 
 kubectl get nodes --> to see how nodes information in the cluster
+
+if nodes are in problem use below command to apply again
+
+aws eks --region region_name update-kubeconfig --name cluster_name
+
+aws eks --region us-east-1 update-kubeconfig --name expense
 
 [ ec2-user@ip-172-31-89-76 ~/k8s-eksctl ]$ kubectl get nodes
 NAME                             STATUS   ROLES    AGE   VERSION
