@@ -15,3 +15,7 @@ terraform plan
 terraform apply -auto-approve
 
 4. connect to server with putty using public IP
+
+5. after completion of your work delete server
+
+terraform destroy -auto-approve
