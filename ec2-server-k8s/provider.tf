@@ -8,9 +8,9 @@ terraform {
 
   backend "s3" {
     bucket = "venkatswan"
-    key    = "k8-eksctl"
+    key    = "k8-eksctl-ec2"
     region = "us-east-1"
-    dynamodb_table = "venkatswan-db"
+    dynamodb_table = "venkat-db"
   }
 }
 

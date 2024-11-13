@@ -10,4 +10,5 @@ module "workstation" {
   tags = {
         Name = "DevOps-Server"
     }
+
 }
