@@ -35,6 +35,8 @@ Password: DevOps321
 
 Note: to connect this server key not required
 
+clone this repo to the ec2-server and do the next steps
+
 5. after completion of your work delete server
 
 terraform destroy -auto-approve
