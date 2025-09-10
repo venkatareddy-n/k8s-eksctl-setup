@@ -2,6 +2,19 @@ Need to create ec2-instance using terraform with all required softwares
 
 1. aws configure --> in your local laptop in git bash
 
+give keys
+
+Example
+$ aws configure
+AWS Access Key ID [****************FUHD]: AKIAUG7R4UJWTLZ
+AWS Secret Access Key [****************CAMJ]: 9eTuNrqdRVdy6QP6ZUXOeGfZp
+Default region name [us-east-1]:
+Default output format [json]:
+
+
+aws s3 ls --> to check aws connection
+
+
 2. check all details in terraform files
 security_group 
 public subnetid
@@ -19,6 +32,8 @@ terraform apply -auto-approve
 
 Username: ec2-user
 Password: DevOps321
+
+Note: to connect this server key not required
 
 5. after completion of your work delete server
 
