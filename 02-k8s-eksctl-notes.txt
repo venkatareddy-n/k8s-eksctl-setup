@@ -4,7 +4,7 @@ install eksctl
 ==============
 1. aws configure --> need to set this 1st in your server
 
-2nd Step- install eksclt --> already done using terraform
+2nd Step- install eksclt --> already done using terraform - if not done do it manually
 
 https://eksctl.io/installation/#
 
@@ -51,6 +51,8 @@ managedNodeGroups:
 
 eks.yaml file
 
+Run below command to create cluser it will take 20 mins to create complete cluster
+
 eksctl create cluster --config-file=eks.yaml
 
 --------------------------------------------
@@ -69,5 +71,7 @@ ip-192-168-18-207.ec2.internal   Ready    <none>   10m   v1.30.4-eks-a737599
 ip-192-168-2-254.ec2.internal    Ready    <none>   26m   v1.30.4-eks-a737599
 ------------------------
 
-eksctl delete cluster --config-file=eks.yaml  --> to delete nodes
+Delete Cluster using below command
+------------------------------------
+eksctl delete cluster --config-file=eks.yaml
 
