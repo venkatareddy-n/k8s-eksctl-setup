@@ -25,7 +25,9 @@ DB Partition key - LockID
 
 3. terraform commands to create server
 terraform init
+
 terraform plan
+
 terraform apply -auto-approve
 
 4. connect to server with putty using public IP
