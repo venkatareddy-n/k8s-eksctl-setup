@@ -1,5 +1,7 @@
 connect to server with putty
 
+code repo : https://github.com/venkatareddy-n/k8s-eksctl-setup.git
+
 install eksctl
 ==============
 1. aws configure --> need to set this 1st in your server
