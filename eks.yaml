@@ -1,10 +1,10 @@
 apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 metadata:
-  name: my-demo-cluster
+  name: my-k8s-cluster
   region: us-east-1
 managedNodeGroups:
-  - name: my-demo-cluster-ng
+  - name: my-k8s-ng
     #instanceType: m5.large --> we need to use this high capacity high cost
     instanceType: t2.small  #--> remove this, this is for testing only
     desiredCapacity: 2
