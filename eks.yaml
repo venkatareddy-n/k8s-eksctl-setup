@@ -8,4 +8,5 @@ managedNodeGroups:
     #instanceType: m5.large --> we need to use this high capacity high cost
     instanceType: t2.small  #--> remove this, this is for testing only
     desiredCapacity: 2
-    spot: true 
+    volumeSize: 25
+    spot: true # if you want spot instances you can un-coment
