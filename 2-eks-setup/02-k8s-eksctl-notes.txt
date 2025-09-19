@@ -65,7 +65,7 @@ Problem if nodes are in problem use below command to apply again
 =======
 aws eks --region region_name update-kubeconfig --name cluster_name
 
-aws eks --region us-east-1 update-kubeconfig --name expense
+aws eks --region us-east-1 update-kubeconfig --name flipkart
 
 [ ec2-user@ip-172-31-89-76 ~/k8s-eksctl ]$ kubectl get nodes
 NAME                             STATUS   ROLES    AGE   VERSION

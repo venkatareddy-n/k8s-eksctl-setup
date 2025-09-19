@@ -1,12 +1,12 @@
 apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 metadata:
-  name: my-k8s-cluster
+  name: flipkart
   region: us-east-1
 managedNodeGroups:
-  - name: my-k8s-ng
+  - name: flipkart
     #instanceType: m5.large --> we need to use this high capacity high cost
     instanceType: t2.small  #--> remove this, this is for testing only
-    desiredCapacity: 2
+    desiredCapacity: 2 # use 3+ nodes for project setup
     volumeSize: 25
     spot: true # if you want spot instances you can un-coment
