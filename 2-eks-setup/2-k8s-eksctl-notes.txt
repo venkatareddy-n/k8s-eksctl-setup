@@ -77,3 +77,21 @@ Delete Cluster using below command
 ------------------------------------
 eksctl delete cluster --config-file=eks.yaml
 
+or
+
+create eks cluster with command
+
+eksctl create cluster \
+  --name my-k8s-cluster \
+  --region us-east-1 \
+  --node-type t2.small \
+  --nodes 2 \
+  --nodes-min 2 \
+  --nodes-max 5
+
+
+To delete cluster run below command
+
+eksctl delete cluster --name my-k8s-cluster --region us-east-1
+
+

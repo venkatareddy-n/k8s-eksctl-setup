@@ -46,7 +46,6 @@ mv /tmp/eksctl /usr/local/bin
 eksctl version
 VALIDATE $? "eksctl installation"
 
-
 # kubectl
 curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.31.0/2024-09-12/bin/linux/amd64/kubectl
 chmod +x ./kubectl
